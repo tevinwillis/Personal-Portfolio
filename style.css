@@ -1,0 +1,101 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+
+body {
+    background-color: #1ef3c8;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #000;
+}
+.nav-link{
+text-decoration: none;
+font-size: 40px;
+margin: 10px;
+color: #1ef3c8;;
+}
+.nav-link:hover{
+    color: snow;
+}
+.welcome-section{
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    font-size: 80px;
+    font-family: Jacques Francois Shadow;
+}
+.webdev{
+    font-size: 25px;
+    
+}
+h2{
+    font-size: 50px;
+  padding-top: 70px;
+}
+.section{
+    text-align: center;
+}
+.fcc, .github{
+    font-size: 60px;
+    color: #000; 
+}
+.fcc:hover{
+    color: snow;
+}
+.github:hover{
+    color: snow;
+}
+.cover {
+  height: 300px;
+  width: 300px;
+}
+.project{
+  background-color: #000;
+  height: 355px;
+  width: 300px;
+  text-align: center;
+  font-size: 30px;
+  color: #1ef3c8;
+  
+}
+.project:hover{
+  color: snow;
+}
+.title{
+  text-decoration: none;
+}
+.project-tile{
+  display: flex;
+  justify-content: center;
+}
+.tribute, .survey, .product{
+  margin: 15px;
+}
