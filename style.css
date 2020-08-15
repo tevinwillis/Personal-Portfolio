@@ -21,7 +21,7 @@ color: #1ef3c8;
 }
 @media (max-width: 375px) {
   .nav-link{
-      font-size: 25px;
+      font-size: 40px;
   }
 }
 .welcome-section{
